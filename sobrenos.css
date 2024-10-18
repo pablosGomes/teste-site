@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,500&family=Inter:ital,opsz@0,14..32;1,14..32&family=Montserrat:ital,wght@0,800;1,800&family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1517;
+    color: #FFFFFF;
+}
+
+html {
+    font-family: inter, sans-serif;
+    font-weight: 500;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem, 100rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #FFF2E7;
+    text-decoration: none;
+    position: relative;
+
+}
+
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #FFF2E7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: -0.2rem;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #FFF2E7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: -0.2rem;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 1rem;
+    align-items: center;
+}
+
+.topico1 {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.style-img>figure>img {
+    max-width: 1120px;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.topico2 {
+    background: #241A1C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 100rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.topico2-img {
+    max-width: 1120p;
+    border-radius: 0.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem;
+}
